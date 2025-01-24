@@ -25,31 +25,33 @@ Follow these steps to configure the project,
  
 
     ```bash 
-    git clone githubv://link
+    git clone https://github.com/AtitSharma/MUTUAL-FUNDS.git
 
 - After you clone the project now simply. Do these tasks.
 
     ```bash
     pip install -r requirements.txt
 
-    # Migrate tables on database
+3. **Migrate tables on database**
+
     ```bash
     python manage.py migrate
 
 
-
-3.  **Create the superuser** 
+4.  **Create the superuser** 
     Create a admin 
 
     ```bash
     python manage.py createsuperuser
 
-4.  **Test the Server** 
+5.  **Test the Server** 
 
     Simply run the project by
 
     ```bash
     python manage.py runserver 
+
+6.  **Test the Server** 
 
     Go to your any web browser and test
 

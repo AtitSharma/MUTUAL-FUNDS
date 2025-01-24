@@ -21,7 +21,8 @@ Follow these steps to configure the project,
 
    source mfas_env/bin/activate
 
-2.  **Clone the project from the github** 
+### Step 2: Clone The Project
+1.  **Clone the project from the github** 
  
 
     ```bash 
@@ -32,26 +33,26 @@ Follow these steps to configure the project,
     ```bash
     pip install -r requirements.txt
 
-3. **Migrate tables on database**
+2. **Migrate tables on database**
 
     ```bash
     python manage.py migrate
 
 
-4.  **Create the superuser** 
+3.  **Create the superuser** 
     Create a admin 
 
     ```bash
     python manage.py createsuperuser
 
-5.  **Test the Server** 
+4.  **Test the Server** 
 
     Simply run the project by
 
     ```bash
     python manage.py runserver 
 
-6.  **Test the Server** 
+5.  **Test the Server** 
 
     Go to your any web browser and test
 

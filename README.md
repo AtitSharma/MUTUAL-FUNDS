@@ -1,4 +1,4 @@
-# MUTUAL FUNDS ACCOUNT SYSTEM 
+# MUTUAL FUNDS ACCOUNT SYSTEM
 
 This guide will help you set up a MUTUAL FUNDS ACCOUNT SYSTEM on your system.
 ## Prerequisites
@@ -13,8 +13,8 @@ Follow these steps to configure the project,
 
 ### Step 1: Setup Virtual Environment
 
-1. **Setup Virtual Env**  
-   
+1. **Setup Virtual Env**
+
 
    ```bash
    python -m venv mfas_env
@@ -22,10 +22,10 @@ Follow these steps to configure the project,
    source mfas_env/bin/activate
 
 ### Step 2: Clone The Project
-1.  **Clone the project from the github** 
- 
+1.  **Clone the project from the github**
 
-    ```bash 
+
+    ```bash
     git clone https://github.com/AtitSharma/MUTUAL-FUNDS.git
 
 - After you clone the project now simply. Do these tasks.
@@ -39,27 +39,22 @@ Follow these steps to configure the project,
     python manage.py migrate
 
 
-3.  **Create the superuser** 
-    Create a admin 
+3.  **Create the superuser**
+    Create a admin
 
     ```bash
     python manage.py createsuperuser
 
-4.  **Test the Server** 
+4.  **Test the Server**
 
     Simply run the project by
 
     ```bash
-    python manage.py runserver 
+    python manage.py runserver
 
-5.  **Test the Server** 
+5.  **Test the Server**
 
-    Go to your any web browser and test
+    Go to your any web browser and see the api documentation
 
     ```bash
     http://localhost:8000
-
-
-
-
-
